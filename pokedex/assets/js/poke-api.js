@@ -17,7 +17,6 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 }
 
 pokeApi.getPokemonsDetails = (pokemon) => {
-        console.log("Clicado", pokemon)
         return fetch(pokemon.url)
             .then((response) => response.json())
             .then(convertPokeApiDetailToPokemon)
@@ -36,7 +35,6 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
 }
 
 pokeApi.getPokemonDetails = (pokemon) => {
-    console.log(pokemon)
     const url = `https://pokeapi.co/api/v2/pokemon/` + pokemon
     return fetch(url)
         .then((response) => response.json())
@@ -44,8 +42,4 @@ pokeApi.getPokemonDetails = (pokemon) => {
         .then((detailRequest) => Promise.all(detailRequest))
         .then((pokemonsDetails) => (pokemonsDetails))
         .catch((error) => console.error(error))
-}
-
-window.onload = function () {
-    myFunction();
 }

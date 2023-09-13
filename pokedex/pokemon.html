@@ -18,8 +18,7 @@
     <title>Pokemon</title>
 </head>
 <body>
-    <p id="name-placeholder"></p>
-    <script>
+    <!-- <script>
 
 
 
@@ -38,36 +37,12 @@
         // Display the "name" attribute of the object
         namePlaceholder.textContent = apiResponse.name;
 
-
-         
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.id) {
-                        // Display the data in the HTML
-                        dataContainer.innerHTML = 
-                        <div>
-                            <h2>Title: ${data.title}</h2>
-                            <p>Body: ${data.body}</p>
-                        </div>
-                    } else {
-                        dataContainer.innerHTML = 'Data not found';
-                    }
-                })
-                .catch(error => {
-                    console.error('Error fetching data:', error);
-                });
-        
-
-
-
-    </script>
+    </script> -->
     <main class="content">
-
         <ol class="pokemons">
             <li class="pokemon ${pokemon.type}">
                     
-                <span class="name">Bulbasaur</span>
+                <span id="pkmn-name"></span>
                 <span class="number">#001</span>
                 <div class="detail">
                     <ol class="types">
@@ -75,7 +50,9 @@
                         <li class="type">poison</li>
                     </ol>
                 </div>
-                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+                <div id="image-container">
+                    <!-- Image will be displayed here -->
+                </div>
             </li>
         </ol>
 
@@ -88,7 +65,8 @@
             </ol>
             <ol class="about">
                 <li class="data"><span class="ldata">Species</span><span class="rdata">Seed</span></li>
-                <li class="data"><span class="ldata">Height</span><span class="rdata">2'3."6 (0.70 cm)</span></li>
+                <!-- <li class="data"><span class="ldata">Height</span><span class="rdata">2'3."6 (0.70 cm)</span></li> -->
+                <li class="data"><span class="ldata">Height</span><span id="pkmn-height"></span></li>
                 <li class="data"><span class="ldata">Weight</span><span class="rdata">15.2 lbs (6.9 kg)</span></li>
                 <li class="data"><span class="ldata">Abilities</span><span class="rdata">Overgrow, Chlorophyl</span></li>
             </ol>
@@ -100,6 +78,40 @@
             </ol>
         </div>
     </main>
+
+    
+    <script>
+        const namePkmn = document.getElementById('pkmn-name');
+        const heightPkmn = document.getElementById('pkmn-height');
+        const imageContainer = document.getElementById('image-container');
+        const urlParams = new URLSearchParams(window.location.search);
+        const pokemonId = urlParams.get('id');
+
+        if (pokemonId) {
+            // Fetch Pokemon details based on the provided ID
+            const apiUrl = `https://pokeapi.co/api/v2/pokemon/${pokemonId}`;
+            
+            fetch(apiUrl)
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    // Display Pokemon details
+                    const imageElement = document.createElement('img');
+                    namePkmn.textContent = data.name;
+                    heightPkmn.textContent = data.height
+                    console.log(data.sprites.other.dream_world.front_default)
+                    imageElement.src = data.sprites.other.dream_world.front_default
+                    imageContainer.appendChild(imageElement);
+
+                    // You can add more code here to populate other parts of your HTML
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        } else {
+            namePlaceholder.textContent = 'Pokemon ID not found in the URL.';
+        }
+    </script>
 
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>

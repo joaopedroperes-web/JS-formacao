@@ -9,7 +9,7 @@ function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         const newHtml = pokemons.map((pokemon) => `
         
-            <li class="pokemon ${pokemon.type}">
+            <li class="pokemon ${pokemon.type}"  onclick="seeDetails(${pokemon.number})">
                 <span class="number">${pokemon.number}</span>
                 <span class="name">${pokemon.name}</span>
 
@@ -21,7 +21,6 @@ function loadPokemonItens(offset, limit) {
                     <img src="${pokemon.photo}"
                         alt="${pokemon.name}">
                 </div>
-                <button  onclick="navigateToPokemonDetails('${pokemon.name}')">Get Details</button>
             </li>
         `).join('')
 
@@ -46,18 +45,6 @@ loadMoreButton.addEventListener('click', () => {
     }
 })
 
-
-
-// function procurarPokemon(name) {
-//     ("https://pokeapi.co/api/v2/")
-//     return fetch("https://pokeapi.co/api/v2/pokemon" + name)
-//         .then((response) => response.json())
-//         .then((jsonBody) => jsonBody.results)
-// }
-
-// console.log(procurarPokemon)
-
-function navigateToPokemonDetails(pokemonId) {
-    // Navigate to the pokemonDetails.html page with the specific Pokémon ID
-    window.location.href = `pokemon.html?id=${pokemonId}`;
+function seeDetails(number) {
+    window.location.href = `/detail.html?id=${number}`
 }

@@ -1,32 +1,49 @@
 {
-  "nome": "Venilton FalvoJr",
-  "titulo": "Education Tech Lead na DIO",
+  "nome": "João Pedro Peres Siqueira",
+  "titulo": "Estudante de ciência da Computação",
   "localidade": {
-    "cidade": "Araraquara",
-    "estado": "São Paulo",
+    "cidade": "Brasília",
+    "estado": "Distrito Federal",
     "pais": "Brasil"
   },
-  "telefone": "(16) 99721-8281",
-  "email": "venilton@dio.me",
+  "telefone": "(61) 98238-0701",
+  "email": "jpperesgl@gmail.com",
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
+        "nome": "Python",
         "logo": "TODO"
       },
       {
-        "nome": "Java",
+        "nome": "SQL",
         "logo": "TODO"
       },
       {
-        "nome": "Kotlin",
+        "nome": "Git",
+        "logo": "TODO"
+      },
+      {
+        "nome": "HTML",
+        "logo": "TODO"
+      },
+      {
+        "nome": "CSS",
+        "logo": "TODO"
+      },
+      {
+        "nome": "JavaScript",
+        "logo": "TODO"
+      },
+      {
+        "nome": "React",
         "logo": "TODO"
       }
     ],
     "softSkills": [
       "Comunicação",
       "Empatia",
-      "Poder de Sedução Imcomparável"
+      "Agilidade",
+      "Vontade de aprender"
     ]
   },
   "idiomas": [
@@ -36,7 +53,7 @@
     },
     {
       "nome": "Inglês",
-      "nivel": "Intermediário"
+      "nivel": "Avançado"
     },
     {
       "nome": "Espanhol",
@@ -49,80 +66,71 @@
       "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
       "instituicao": "Digital Innovation One (DIO)",
       "periodo": {
-        "inicio": "2019",
+        "inicio": "2022",
         "fim": "Atualmente"
       },
       "certificados": [
         {
-          "nome": "Formação: Blockchain Specialist (25h)",
-          "link": "https://www.dio.me/certificate/28601B02"
+          "nome": "Bootcamp: Geração Tech Unimed-BH - Ciência de dados (126h)",
+          "link": "https://www.dio.me/certificate/252B82AA"
         },
         {
-          "nome": "Curso: Desenvolvimento Mobile Nativo Para Android",
-          "link": "https://www.dio.me/certificate/07041B99"
+          "nome": "Formação: Scrum Master Certification (22h)",
+          "link": "https://www.dio.me/certificate/6B337767"
         },
         {
-          "nome": "Curso: Componentes, Layouts e UI/UX Em Apps Android",
-          "link": "https://www.dio.me/certificate/F12AC30B"
+          "nome": "Formação: HTML Web Developer (21h)",
+          "link": "https://www.dio.me/certificate/65160941"
         },
         {
-          "nome": "Curso: Java e Kotlin Juntos!? Construindo Apps Android",
-          "link": "https://www.dio.me/certificate/3FB20BF1"
+          "nome": "Formação: CSS Web Developer (43h)",
+          "link": "https://www.dio.me/certificate/5FB865B1"
         },
         {
-          "nome": "Curso: Explorando o Firebase Para Apps Android Resiliente",
-          "link": "https://www.dio.me/certificate/BA099F34"
+          "nome": "Formação: JavaScript Developer (em breve)",
+          "link": ""
         }
       ]
     },
     {
-      "nome": "Doutorado em Engenharia de Software",
-      "descricao": "Uma Infraestrutura de Apoio ao Ensino e Aprendizagem de Línguas de Sinais",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2018",
-        "fim": "Atualmente"
-      }
-    },
-    {
-      "nome": "Mestrado em Engenharia de Software",
-      "descricao": "Estudo e Definição de Uma Linha de Produtos de Software Para o Desenvolvimento de Aplicações Educacionais Moveis",
-      "instituicao": "Universidade de São Paulo (USP)",
-      "periodo": {
-        "inicio": "2012",
-        "fim": "2015"
-      }
-    },
-    {
-      "nome": "Bacharelado em Engenharia de Computação",
+      "nome": "Bacharelado em Ciência da Computação",
       "descricao": "",
-      "instituicao": "Universidade de Araraquara (UNIARA)",
+      "instituicao": "Instituto de Ensino Superior de Brasília (IESB)",
       "periodo": {
-        "inicio": "2007",
-        "fim": "2011"
+        "inicio": "2021",
+        "fim": "atualmente"
       }
     }
   ],
   "portfolio": [
     {
-      "nome": "Crie o seu NFT de Pokémon com Blockchain (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/formacao-blockchain-dio",
-      "certificado": "https://www.dio.me/certificate/34F1FBA1"
+      "nome": "Pokedex feita com Javascript",
+      "gitHub": "https://github.com/joaopedroperes-web/JS-formacao/tree/main/pokedex",
+      "certificado": "https://www.dio.me/certificate/540A7B5E"
     },
     {
-      "nome": "App Nativo Sobre Futebol Feminino com Android Jetpack e Java (DIO)",
-      "gitHub": "https://github.com/digitalinnovationone/soccer-news-app",
-      "certificado": "https://www.dio.me/certificate/9A5090FC"
+      "nome": "Clone de HBO Max, apenas com CSS e HTML com animações",
+      "gitHub": "https://github.com/joaopedroperes-web/CSS-formacao/tree/main/clonando_hbo%20_max_com_animacoes",
+      "certificado": "https://www.dio.me/certificate/04F0B837"
     }
   ],
   "experiencias": [
     {
-      "nome": "Education Tech Lead ",
+      "nome": "Estudande de Ciência da Computação",
       "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
+      "instituicao": "IESB",
       "periodo": {
         "inicio": "03/2021",
         "fim": "Atualmente"
+      }
+    },
+    {
+      "nome": "Editor de vídeo freelancer",
+      "descricao": "",
+      "instituicao": "",
+      "periodo": {
+        "inicio": "12/2019",
+        "fim": "06/2021"
       }
     }
   ]

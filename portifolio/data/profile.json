@@ -42,18 +42,9 @@
     ]
   },
   "languages": [
-    {
-      "name": "Português",
-      "level": "Nativo"
-    },
-    {
-      "name": "Inglês",
-      "level": "Avançado"
-    },
-    {
-      "name": "Espanhol",
-      "level": "Básico"
-    }
+      "Português (native)",
+      "Inglês (advanced)",
+      "Espanhol (basic)"
   ],
   "educacao": [
     {

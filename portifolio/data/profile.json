@@ -1,12 +1,9 @@
 {
-  "nome": "João Pedro Peres Siqueira",
-  "titulo": "Estudante de ciência da Computação",
-  "localidade": {
-    "cidade": "Brasília",
-    "estado": "Distrito Federal",
-    "pais": "Brasil"
-  },
-  "telefone": "(61) 98238-0701",
+  "name": "João Pedro Peres Siqueira",
+  "photo": "https://avatars.githubusercontent.com/u/79981903?v=4",
+  "job": "Estudante de ciência da Computação",
+  "location": "Brasília - DF",
+  "phone": "(61) 98238-0701",
   "email": "jpperesgl@gmail.com",
   "skills": {
     "hardSkills": [

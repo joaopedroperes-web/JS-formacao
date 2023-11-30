@@ -50,13 +50,13 @@
     {
       "name": "Pokedex build with Javascript",
       "url": "https://github.com/joaopedroperes-web/JS-formacao/tree/main/pokedex",
-      "git": true,
+      "github": true,
       "certificate": "https://www.dio.me/certificate/540A7B5E"
     },
     {
       "name": "HBO Max clone, only with CSS and HTML using animations",
       "url": "https://github.com/joaopedroperes-web/CSS-formacao/tree/main/clonando_hbo%20_max_com_animacoes",
-      "git": true,
+      "github": true,
       "certificate": "https://www.dio.me/certificate/04F0B837"
     }
   ],

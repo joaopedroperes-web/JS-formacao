@@ -8,31 +8,31 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Python",
+        "name": "Python",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/python.png"
       },
       {
-        "nome": "MySQL",
+        "name": "MySQL",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/mysql.png"
       },
       {
-        "nome": "Git",
+        "name": "Git",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/git.png"
       },
       {
-        "nome": "Postgre",
+        "name": "Postgre",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/postgresql.png"
       },
       {
-        "nome": "CSS",
+        "name": "CSS",
         "logo": "TODO"
       },
       {
-        "nome": "JavaScript",
+        "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/js.png"
       },
       {
-        "nome": "React",
+        "name": "React",
         "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/react.png"
       }
     ],

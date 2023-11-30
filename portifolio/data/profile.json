@@ -41,18 +41,18 @@
       "Organizationz"
     ]
   },
-  "idiomas": [
+  "languages": [
     {
-      "nome": "Português",
-      "nivel": "Nativo"
+      "name": "Português",
+      "level": "Nativo"
     },
     {
-      "nome": "Inglês",
-      "nivel": "Avançado"
+      "name": "Inglês",
+      "level": "Avançado"
     },
     {
-      "nome": "Espanhol",
-      "nivel": "Básico"
+      "name": "Espanhol",
+      "level": "Básico"
     }
   ],
   "educacao": [

@@ -1,7 +1,7 @@
 {
   "name": "João Pedro Peres Siqueira",
   "photo": "https://avatars.githubusercontent.com/u/79981903?v=4",
-  "job": "Estudante de ciência da Computação",
+  "job": "Computer Science Student",
   "location": "Brasília - DF",
   "phone": "(61) 98238-0701",
   "email": "jpperesgl@gmail.com",
@@ -37,10 +37,12 @@
       }
     ],
     "softSkills": [
-      "Comunicação",
-      "Empatia",
-      "Agilidade",
-      "Vontade de aprender"
+      "Communication",
+      "Empathy",
+      "Agility",
+      "Desire to learn",
+      "Flexibility",
+      "Organizationz"
     ]
   },
   "idiomas": [

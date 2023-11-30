@@ -60,24 +60,16 @@
       "certificate": "https://www.dio.me/certificate/04F0B837"
     }
   ],
-  "experiencias": [
+  "professionalExperience": [
     {
-      "nome": "Estudande de Ciência da Computação",
-      "descricao": "",
-      "instituicao": "IESB",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
+      "name": "Computer Science Student",
+      "period": "03/2021 - nowadays",
+      "description": "IESB"
     },
     {
-      "nome": "Editor de vídeo freelancer",
-      "descricao": "",
-      "instituicao": "",
-      "periodo": {
-        "inicio": "12/2019",
-        "fim": "06/2021"
-      }
+      "name": "Freelancer video editor",
+      "period": "12/2019 - nowadays",
+      "description": ""
     }
   ]
 }

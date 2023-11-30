@@ -46,58 +46,18 @@
       "English (advanced)",
       "Spanish (basic)"
   ],
-  "educacao": [
-    {
-      "nome": "dio.me",
-      "descricao": "Aprendizado contínuo na maior plataforma de educação aberta da América Latina.",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "2022",
-        "fim": "Atualmente"
-      },
-      "certificados": [
-        {
-          "nome": "Bootcamp: Geração Tech Unimed-BH - Ciência de dados (126h)",
-          "link": "https://www.dio.me/certificate/252B82AA"
-        },
-        {
-          "nome": "Formação: Scrum Master Certification (22h)",
-          "link": "https://www.dio.me/certificate/6B337767"
-        },
-        {
-          "nome": "Formação: HTML Web Developer (21h)",
-          "link": "https://www.dio.me/certificate/65160941"
-        },
-        {
-          "nome": "Formação: CSS Web Developer (43h)",
-          "link": "https://www.dio.me/certificate/5FB865B1"
-        },
-        {
-          "nome": "Formação: JavaScript Developer (em breve)",
-          "link": ""
-        }
-      ]
-    },
-    {
-      "nome": "Bacharelado em Ciência da Computação",
-      "descricao": "",
-      "instituicao": "Instituto de Ensino Superior de Brasília (IESB)",
-      "periodo": {
-        "inicio": "2021",
-        "fim": "atualmente"
-      }
-    }
-  ],
   "portfolio": [
     {
-      "nome": "Pokedex feita com Javascript",
-      "gitHub": "https://github.com/joaopedroperes-web/JS-formacao/tree/main/pokedex",
-      "certificado": "https://www.dio.me/certificate/540A7B5E"
+      "name": "Pokedex build with Javascript",
+      "url": "https://github.com/joaopedroperes-web/JS-formacao/tree/main/pokedex",
+      "git": true,
+      "certificate": "https://www.dio.me/certificate/540A7B5E"
     },
     {
-      "nome": "Clone de HBO Max, apenas com CSS e HTML com animações",
-      "gitHub": "https://github.com/joaopedroperes-web/CSS-formacao/tree/main/clonando_hbo%20_max_com_animacoes",
-      "certificado": "https://www.dio.me/certificate/04F0B837"
+      "name": "HBO Max clone, only with CSS and HTML using animations",
+      "url": "https://github.com/joaopedroperes-web/CSS-formacao/tree/main/clonando_hbo%20_max_com_animacoes",
+      "git": true,
+      "certificate": "https://www.dio.me/certificate/04F0B837"
     }
   ],
   "experiencias": [

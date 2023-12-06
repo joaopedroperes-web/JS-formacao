@@ -9,27 +9,27 @@
     "hardSkills": [
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/python.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/python.png"
       },
       {
         "name": "MySQL",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/mysql.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/mysql.png"
       },
       {
         "name": "Git",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/git.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/git.png"
       },
       {
         "name": "Postgre",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/postgresql.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/postgresql.png"
       },
       {
         "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/js.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/js.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portifolio/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/joaopedroperes-web/JS-formacao/main/portfolio/data/imgs/react.png"
       }
     ],
     "softSkills": [

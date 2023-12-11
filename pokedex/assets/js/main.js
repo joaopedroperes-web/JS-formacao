@@ -46,5 +46,5 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 function seeDetails(number) {
-    window.location.href = `/detail.html?id=${number}`
+    window.location.href = `/JS-formacao/pokedex/detail.html?id=${number}`
 }
